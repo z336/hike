@@ -1,0 +1,15 @@
+// Left panel
+
+.left-text {
+    position: relative;
+    display: block;
+    overflow: hidden;
+
+    h1 {
+        font-size: 8rem;
+        letter-spacing: -2px;
+        line-height: 110%;
+        position: fixed;
+        top: 35%;
+    }
+}
