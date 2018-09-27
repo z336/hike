@@ -1,6 +1,7 @@
 // Navigation
 
 .nav {
+    font-family: $body-font-family-serif;
     overflow: hidden;
     a {
         color: $light-gray;
@@ -10,11 +11,14 @@
     }
     a:hover {
         color:#5c7a6d;
+        transform: scale(1.05);
     }
     .icon {
         display: none;
     }
 }
+
+// Responsive menu styles
 
 @media screen and (max-width: 600px) {
     .nav a {

@@ -7,9 +7,15 @@
 
     h1 {
         font-size: 8rem;
-        letter-spacing: -2px;
         line-height: 110%;
         position: fixed;
         top: 35%;
+        font-family: $body-font-family-heading;
     }
+
+    @media screen and (max-width: 320px) {
+        h1 {
+            font-size: 7rem;
+        }
+      }
 }

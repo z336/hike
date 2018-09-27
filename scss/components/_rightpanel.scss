@@ -5,7 +5,16 @@
     top: 100vh;
     padding-bottom: 34vh;
     padding-right: 10vh;
+    font-family: $body-font-family-serif;
+
+    @media screen and (max-width: 1024px) {
+        padding-right: 1vh;
+      }
 }
 
-
-
+.leaf {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    padding: 5rem 0; 
+}
